@@ -1,4 +1,4 @@
-# Credit_Score_Home_Credit_Indonesia
+# Credit Score Home Credit Indonesia
 
 **Problem Statement :**
 How do you help the assessment team examine customer loans?
@@ -24,20 +24,22 @@ Create a system to help loan assessments automatically
 
 **Libraries**: Pandas, Numpy, Feature-engine, Scikit-learn, Imbalanced-learn, statistic-learn, imputer-learn, WoE Binning
 
-**Dataset**: Ecommerce Customer Churn Analysis and Prediction [[source]](https://www.kaggle.com/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction)
+**Dataset**: Home Credit Default Risk [[source]](https://www.kaggle.com/c/home-credit-default-risk)
 
 **Summary of the analysis**
 * This dataset train have application train 307,511 observations and 122 variables with 106 numerical variables, 16 categorical variables and 1 target variable.
 * This dataset test have application test 48,744 observations and 121 variables with 105 numerical variables, and 16 categorical variables
 
+![image](https://user-images.githubusercontent.com/108534539/206389308-8cd1a0f6-78c8-45e7-bbbc-07b791cd63e8.png)
 
+![image](https://user-images.githubusercontent.com/108534539/206389358-a969539a-8c7d-479a-a921-ba387948e551.png)
 
 **What I have learned**
 * Framing the business problem. 
-* Create a machine learning model and extract insight from it to make an actionable recommendation for the business team.
-* Make a business simulation from insights that decrease churn rate.
+* Create a machine learning model with optimal of number of approved and number of rejected
+* Create a scorecard that can generate credit score who rejected
+* Make a business simulation from machine learning model.
 
 **File Dictionaries**
-* [EDA_2Pendo (1).ipynb](https://github.com/archie-cm/churn-for-bank-customer/blob/main/EDA_2Pendo%20(1).ipynb): this notebook contains all of project details, such as business understanding, exploratory data analysis & insights from dataset and external data.
-* [Supervised_2pendo.ipynb](https://github.com/archie-cm/churn-for-bank-customer/blob/main/Supervised_2pendo.ipynb) : data preprocessing, modeling, lift & gain analysis, feature importance with SHAP, business recommendation
-* [2pendo-presentation_final_project.pdf](https://github.com/archie-cm/churn-for-bank-customer/blob/main/2pendo-presentation_final_project.pdf): summary of the project.
+* [Credit_Score_Home_Credit_Indonesia.ipynb](https://github.com/archie-cm/Credit-Score-Home-Credit-Indonesia/blob/main/Credit_Score_Home_Credit_Indonesia.ipynb): this notebook contains all of project details, such as Problem Research, exploratory data analysis & insights from dataset, data preprocessing, modeling, scorecard, business recommendation
+* [VIX_Credit_Score_HCI_Archie_Citra_Muhammad.pdf](https://github.com/archie-cm/Credit-Score-Home-Credit-Indonesia/blob/main/VIX_Credit_Score_HCI_Archie_Citra_Muhammad.pdf): summary of the project.
