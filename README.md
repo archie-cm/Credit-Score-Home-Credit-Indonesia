@@ -34,8 +34,10 @@ Create a system to help loan assessments automatically
 
 **What I have learned**
 * Framing the business problem. 
-* Create a machine learning model and extract insight that generates churn & retention from it to make an actionable recommendation for the business team.
-* Create a survival analysis, predict customer who will churn in Future and extract insight that generates churn & retention from it to make an actionable recommendation for the business team.
-* Create a customer segmentation with RFM Segmentation, KMeans and Gaussians that can generates strategy-strategy personal customer. 
-* Create a dashboard interactive can monitoring business metrics, operational, and sales.
-* Make a business simulation from insights that calculate loss oppurtunity and revenue uplift.
+* Create a machine learning model and extract insight from it to make an actionable recommendation for the business team.
+* Make a business simulation from insights that decrease churn rate.
+
+**File Dictionaries**
+* [EDA_2Pendo (1).ipynb](https://github.com/archie-cm/churn-for-bank-customer/blob/main/EDA_2Pendo%20(1).ipynb): this notebook contains all of project details, such as business understanding, exploratory data analysis & insights from dataset and external data.
+* [Supervised_2pendo.ipynb](https://github.com/archie-cm/churn-for-bank-customer/blob/main/Supervised_2pendo.ipynb) : data preprocessing, modeling, lift & gain analysis, feature importance with SHAP, business recommendation
+* [2pendo-presentation_final_project.pdf](https://github.com/archie-cm/churn-for-bank-customer/blob/main/2pendo-presentation_final_project.pdf): summary of the project.
